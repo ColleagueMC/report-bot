@@ -1,4 +1,3 @@
-```js
 
 const mineflayer = require('mineflayer');
 const socks = require('socks').SocksClient;
@@ -50,4 +49,4 @@ accounts.forEach(account => {
     const randomWord = words[Math.floor(Math.random() * words.length)];
     bot.chat(`/wdr ${player} ${randomWord}`);
   }, 60000);
-});```
+});
